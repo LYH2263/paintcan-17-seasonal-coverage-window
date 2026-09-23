@@ -10,3 +10,9 @@ table { width:100%; border-collapse:collapse; }
 th,td { border:1px solid #aacce0; padding:0.35rem; }
 .hero-num { font-size:2rem; color: var(--line); font-weight:700; }
 a { color: var(--line); }
+.muted { color:#5a7a8a; font-size:0.9rem; }
+.ok { color:#1d7a3a; }
+.err { color:#b3261e; }
+.form-row { display:flex; flex-wrap:wrap; gap:1rem; margin:0.5rem 0; }
+label { display:inline-flex; flex-direction:column; gap:0.25rem; font-size:0.9rem; }
+input { padding:0.3rem; border:1px solid var(--line); border-radius:4px; }
